@@ -1,0 +1,10 @@
+{
+  "/graphsql/*": {
+    "target": "http://localhost:4000",
+    "secure": false,
+    "pathRewrite": {
+      "^/graphsql": ""
+    },
+    "logLevel": "debug"
+  }
+}
